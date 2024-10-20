@@ -3,7 +3,7 @@ import time
 import pandas as pd
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-
+import os
 import module_locator
 from bs4 import BeautifulSoup
 from webdriver_manager.chrome import ChromeDriverManager
